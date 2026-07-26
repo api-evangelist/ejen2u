@@ -1,7 +1,18 @@
 aid: ejen2u
 name: Ejen2u
-description: Ejen2u is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ejen2u is a Malaysian reseller and agent-management technology company that
+  operates one of the country's largest cloud-based reseller ecosystems for
+  MSME brand owners, stockists, agents, dropshippers, and affiliates. Its
+  platform spans EjenGO, a digital reseller and stockist management system;
+  WEMAP, an entrepreneurial education program; and EjenVenture, custom
+  reseller-network solutions for corporate brands, alongside fintech and
+  logistics integrations (Pos Laju, Boost, Curlec, Delyva, J&T). Founded in
+  2019 and headquartered in Seri Kembangan, Ejen2u is backed by 500 Global,
+  Gobi Partners, and Artem Ventures, and has facilitated hundreds of millions
+  of ringgit in reseller commerce across a network of hundreds of thousands of
+  agents. It exposes no public developer API today; this profile is an API
+  Evangelist network entry enriched from public sources.
 url: https://raw.githubusercontent.com/api-evangelist/ejen2u/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://ejen2u.com/wp-content/uploads/2024/03/featuresicon.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Reseller Management
+- Agent Management
+- E-Commerce
+- SaaS
+- Fintech
+- Logistics
+- MSME
+- Malaysia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,18 @@ maintainers:
 common:
 - type: Website
   url: https://ejen2u.com
+- type: Login
+  url: https://ejen2u.com/login/
+- type: TermsOfService
+  url: https://ejen2u.com/terms-of-use-privacy-policy/
+- type: PrivacyPolicy
+  url: https://ejen2u.com/terms-of-use-privacy-policy/
+- type: Support
+  url: https://ejen2u.com/contact-us/
+- type: DomainSecurity
+  url: security/ejen2u-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
